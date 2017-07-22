@@ -1,11 +1,12 @@
-DevelopからMasterへPRを出す
+DevelopブランチからMasterブランチへPRを出すコマンド
 
-## インストール
+## 前準備
+### インストール
 ```
 sudo gem install git-pr-release
 ```
 
-## 初期設定
+### 初期設定
 ```
 git config --file .git-pr-release  pr-release.branch.staging develop
 ```
